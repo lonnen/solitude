@@ -30,7 +30,7 @@ services:
   ${name}-db: mysql
   ${name}-memcached: memcached
 
-mem: 128M
+mem: 256M
 
 hooks:
   post-staging:
