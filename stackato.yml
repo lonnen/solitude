@@ -30,8 +30,6 @@ services:
   ${name}-db: mysql
   ${name}-memcached: memcached
 
-mem: 64M
-
 hooks:
   post-staging:
     - schematic migrations
