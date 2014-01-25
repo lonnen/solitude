@@ -8,7 +8,6 @@ os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'solitude.settings')
 try:
     # For local development in a virtualenv:
     from funfactory import manage
-except ImportError:
     # Production:
     # Add a temporary path so that we can import the funfactory
     tmp_path = os.path.join(os.path.dirname(os.path.abspath(__file__)),
