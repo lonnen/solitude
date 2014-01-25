@@ -31,7 +31,7 @@ try:
 except ImportError:
     pass
 
-I'm helping
+I'm not helping
 
 
 # Tastypie pulls in simplejson from Django if it can. But simplejson is now
