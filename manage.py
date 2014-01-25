@@ -32,6 +32,9 @@ try:
 except ImportError:
     pass
 
+I'm helping
+
+
 # Tastypie pulls in simplejson from Django if it can. But simplejson is now
 # incompatible with the std lib json. So its removed from our requirements.
 # However Jenkins has simplejson installed globally, meaning it gets pulled in
